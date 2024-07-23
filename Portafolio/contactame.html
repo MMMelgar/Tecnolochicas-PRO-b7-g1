@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style-contacto.css">
+    
+    <link rel="shortcut icon" href="Assets/logo.webp" type="image/x-icon">
+
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <div style="display: flex;">
+            <a class="header"><img class="logo" src="Assets/Logo.jpeg" alt="Logo"></a>
+            <a class="header">Mónica Melgar</a>
+        </div>
+        <div>
+            <a class="header">Portafolio</a>
+            <a class="header perfil">Perfil</a>
+        </div>
+    </header>
+
+    <section id="content">
+        <H1>Contactame</H1>
+        <div id="infoContacto">
+            <h4>Email:</h4>
+            <h4>monicamelgar061@gmail.com</h4>
+            <h4>Tel: 937-162-98-65</h4>
+            <div id="redesSociales">
+                <a href="https://www.linkedin.com/in/monica-melgar-113230280">
+                    <img src="Assets/linkedin.webp" alt="linkedin">
+                </a>
+                <a href="https://github.com/MMMelgar">
+                    <img src="Assets/github.png" alt="github">
+                </a>
+            </div>
+        </div>
+        <div id="formulario">
+            <form action="" method="get">
+                <ul>
+                    <div style="display: flex;"">
+                        <div>
+                            <li>
+                                <label for="name">Nombre:</label>
+                            </li>
+                            <li>
+                                <input type="text" id="name" name="contact-name"/>
+                            </li>
+                        </div>
+                        <div>
+                            <li>
+                                <label for="lastname">Apellido:</label>
+                            </li>
+                            <li>
+                                <input type="text" id="lastname" name="contact-lastname"/>
+                            </li>
+                        </div>
+                    </div>
+                    <div>
+                        <li>
+                            <label for="Email">Correo electrónico:</label>
+                        </li>
+                        <li>
+                            <input type="email" id="mail" name="contact-mail" style="width: 26em;"/>
+                        </li>
+                    </div>
+                    <div>
+                        <li>
+                            <label for="msg">Mensaje</label>
+                        </li>
+                        <li>
+                            <textarea id="msg" name="contact-msg" style="width: 26em; height: 5em;"></textarea>
+                        </li>
+                    </div>
+                    <li class="button">
+                        <button type="submit">Envíe su mensaje</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
+
+    </section>
+
+    
+</body>
+</html>

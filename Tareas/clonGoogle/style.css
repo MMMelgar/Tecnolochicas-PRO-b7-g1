@@ -1,0 +1,148 @@
+*{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    color:white;
+    background-color:rgba(32,33,36,1);
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display:flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 48px;
+    font: 13px / 27px Roboto, Arial, sans-serif;
+    /*align-items: center;
+    padding: 6px;
+    min-width: auto;
+    line-height: normal;
+    vertical-align: middle;*/
+}
+
+nav{
+    display: contents;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+main{
+    margin-top: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 30vh;
+    padding-top: 17vh;
+}
+
+#logo{
+    margin: 0 auto;
+    width: 272px;
+}
+
+article{
+    text-align: center;
+}
+
+#buscador{
+    border: 1px solid #5f6368; 
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    align-items: flex-end;
+    width: 530px;
+    margin: 1.5em;
+}
+
+#buscador input{
+    padding: 0 8px 0 0;
+    width: 530px;
+    margin: 0 auto;
+    background-color:rgba(32,33,36,1);
+    flex-grow: 1;
+    border:none;
+    outline: none;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+.icono-buscador{
+    display:inline-block;
+    width: 20px;
+    margin: 0px;
+}
+
+svg .AplicacionesGoogle{
+    border-radius: 50%;
+    border:none;
+    height: 24;
+    width: 24;
+    transform-origin: 0px 0px;
+    color:white;
+    fill:currentColor;
+}
+
+.flex{
+    display:flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+#links-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+#links-footer ul li{
+    padding: 15px;
+}
+
+ul{
+    display: flex;
+    padding-left: 0px;
+}
+
+ul li{
+    display: inline;
+    padding: 15px;
+}
+
+button {
+    margin-right: 5px;
+    padding: 0 15px; /*0 top-bottom y 15 left-right*/
+    height: 35px;
+    background-color: rgb(50, 50, 50);
+    border: none;
+    border-radius: 5px;
+    color: #dfe1e2;
+}
+
+button:hover {
+    border: 1px solid;
+    border-color: grey;
+}
+
+footer{
+    background: #171717;
+}
+
+footer p{
+    padding: 15px;
+    margin: 0px;
+}
+
+.linea-abajo{
+    border-bottom:1px solid #313335;
+}
+
