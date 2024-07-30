@@ -13,7 +13,15 @@
 }
 
 #proyect1{
-    background-image: url('Assets/girl.png');
+    background-image: url('Assets/FaceAttend.png');
+}
+
+#proyect2{
+    background-image: url('Assets/InkTouch.png');
+}
+
+#proyect3{
+    background-image: url('Assets/MSOS.png');
 }
 
 .text-purple{
